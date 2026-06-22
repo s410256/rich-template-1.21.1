@@ -17,11 +17,11 @@ public class Rich implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("反正模組是啟動了啦");
+		ServerPlayConnectionEvents.JOIN.register((handler,sender,server) ->{
+			var player=handler.getPlayer();
+			player.sendSystemMessage(Component.literal("你說李竣翔到底啥時候才去告白阿"));
+		});
 	}
 
 	public static ResourceLocation id(String path) {

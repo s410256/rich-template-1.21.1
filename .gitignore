@@ -29,7 +29,10 @@ bin/
 *.DS_Store
 
 # fabric
-
+.minecraft/
+logs/
+saves/
+crash-reports/
 run/
 
 # java
