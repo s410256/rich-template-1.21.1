@@ -1,10 +1,9 @@
 {
 	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
+	"credit": "你懂的",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "block/texture",
-		"particle": "block/texture"
+		"0": "rich:block/cat59487_block"
 	},
 	"elements": [
 		{
