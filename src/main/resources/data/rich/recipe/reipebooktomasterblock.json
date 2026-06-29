@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "K#K",
+    "#O#",
+    "K#K"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:knowledge_book"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "rich:cat59487_blocks"
+    }
+  },
+  "result": {
+    "id": "minecraft:spawner"
+  }
+}

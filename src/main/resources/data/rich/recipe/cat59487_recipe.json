@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "BsD",
+    "#H#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:wool"
+    },
+    "S": {
+      "item": "minecraft:slime_block"
+    },
+    "B": {
+      "tag": "minecraft:bee_food"
+    },
+    "s": {
+      "item": "minecraft:short_grass"
+    },
+    "D": {
+      "tag": "minecraft:dirt"
+    },
+    "H": {
+      "item": "minecraft:honey_block"
+    }
+  },
+  "result": {
+    "id": "rich:cat59487_blocks"
+  }
+}
