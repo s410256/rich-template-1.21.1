@@ -3,7 +3,7 @@
   "experience": 0,
   "cookingtime": 100,
   "ingredient": {
-    "item": "rich:cat59487_blocks"
+    "item": "rich:cat59487_block"
   },
   "result": {
     "id": "minecraft:knowledge_book"
