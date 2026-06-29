@@ -13,7 +13,7 @@
       "item": "minecraft:slime_block"
     },
     "B": {
-      "tag": "minecraft:bee_food"
+      "item": "minecraft:rose_bush"
     },
     "s": {
       "item": "minecraft:short_grass"
@@ -26,6 +26,7 @@
     }
   },
   "result": {
-    "id": "rich:cat59487_block"
+    "id": "rich:cat59487_block",
+    "count": 1
   }
 }
