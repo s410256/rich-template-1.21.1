@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#oN",
+    "o#E",
+    "NE#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:knowledge_book"
+    },
+    "o": {
+      "item": "minecraft:diamond_block"
+    },
+    "N": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "minecraft:netherite_ingot"
+  }
+}
