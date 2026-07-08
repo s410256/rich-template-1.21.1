@@ -1,10 +1,14 @@
 package com.example.client;
-
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.api.ClientModInitializer;
+import com.example.cat59487;
 
 public class RichClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
+		EntityRendererRegistry.register(
+            cat59487.CAT59487_ENTITY, 
+            cat59487_client.Renderer::new
+        );
 	}
 }

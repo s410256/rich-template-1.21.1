@@ -28,6 +28,7 @@ public class Rich implements ModInitializer {
 			player.sendSystemMessage(Component.literal("你說李竣翔到底啥時候才去告白阿"));
 		});
 		cat59487_block.registerBlocks();
+		cat59487.registerModEntities();
 		CommandRegistrationCallback.EVENT.register((dispatcher,registryAccess,environment) ->dispatcher.register(
 			Commands.literal("nv")
 			.requires(source -> true)
